@@ -1,0 +1,105 @@
+@media (max-width: 1250px) {
+    .s-1 {
+        max-width: 988px;
+    }
+    .s-2 {
+        max-width: 988px;
+    }
+    .forms {
+        max-width: 1000px;
+    }
+    .text {
+        max-width: 624px;
+    }
+    .s-4 {
+        max-width: 988px;
+    }
+    footer {
+        width: 95%;
+        padding-top: 98px;
+        padding-right: 217px;
+        padding-left: 139px;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    .img-container {
+        display: flex;
+        justify-content: center;
+        gap: 95px;
+    }
+    
+    .img-container img {
+        width: 292px;
+        height: 292px;
+    }
+    .s-4-1 {
+        max-width: 1161px;
+        justify-content: center;
+    }
+
+}
+
+
+@media (max-width: 1024px) {
+    .container {
+        width: 90%;
+    }
+    .forms {
+        width: 90%;
+    }
+    form {
+        max-width: 525px;
+    }
+    .mycontact {
+        max-width: 688px;
+        margin: 0 auto;
+        margin-bottom: 21px;
+    }
+    .myinfo {
+        max-width: 858px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    footer {
+        width: 95%;
+        padding-top: 98px;
+        padding-right: 139px;
+        padding-left: 139px;
+        justify-content: space-evenly;
+        gap: 50px;
+    }
+
+    .footer-card-container {
+        display: flex;
+        max-width: 550px;
+        width: 100%;
+        height: 145px;
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+    .img-container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .img-container img {
+        width: 232px;
+        height: 232px;
+    }
+}
+
+@media (max-width: 930px) {
+    form {
+        max-width: 470px;
+    }
+    .img-container {
+        max-width: 930px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .img-container img {
+        width: 352px;
+        height: 352px;
+
+    }
+}
